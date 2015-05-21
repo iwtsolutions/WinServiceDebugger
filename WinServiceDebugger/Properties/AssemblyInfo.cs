@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("WinServiceDebugger")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Provides an easy way to debug windows services using windows forms and log4net.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("IWT Solutions")]
 [assembly: AssemblyProduct("WinServiceDebugger")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
