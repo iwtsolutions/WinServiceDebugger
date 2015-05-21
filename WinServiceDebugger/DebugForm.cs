@@ -29,7 +29,7 @@ namespace WinServiceDebugger
                 return;
             }
 
-            string exception = logEvent.ExceptionObject == null
+            string exception = logEvent.ExceptionObject != null
                 ? logEvent.ExceptionObject.ToString()
                 : string.Empty;
 
