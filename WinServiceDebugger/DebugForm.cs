@@ -33,7 +33,7 @@ namespace WinServiceDebugger
                 ? logEvent.ExceptionObject.ToString()
                 : string.Empty;
 
-            dgvResults.Rows.Add(logEvent.LoggerName, logEvent.Level, logEvent.TimeStamp.ToString("hh:mm:ss tt"), logEvent.RenderedMessage, exception);
+            dgvResults.Rows.Add(logEvent.Level, logEvent.LoggerName, logEvent.ThreadName, logEvent.RenderedMessage, exception, logEvent.TimeStamp.ToString("hh:mm:ss tt"));
         }
 
         private void run()
